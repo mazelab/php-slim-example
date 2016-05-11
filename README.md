@@ -1,24 +1,18 @@
-# Simple PHP example with the slim micro framework
+# Slim Framework 3 Skeleton Application
 
-## What is slim?
+Use this skeleton application to quickly setup and start working on a new Slim Framework 3 application. This application uses the latest Slim 3 with the PHP-View template renderer. It also uses the Monolog logger.
 
-Slim is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs.
-Slim is easy to use for both beginners and professionals. Slim favors cleanliness over terseness and common cases
-over edge cases. Its interface is simple, intuitive, and extensively documented — both online and in the code itself.
+This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
 
-## Requirements
+## Install the Application
 
-- php >= 5.4
-- composer
+Run this command from the directory in which you want to install your new Slim Framework application.
 
-## Install
+    php composer.phar create-project slim/slim-skeleton [my-app-name]
 
-```bash
-$ composer install
-```
+Replace `[my-app-name]` with the desired directory name for your new application. You'll want to:
 
-## Start
+* Point your virtual host document root to your new application's `public/` directory.
+* Ensure `logs/` is web writeable.
 
-```bash
-$ php -S localhost:80
-```
+That's it! Now go build something cool.
